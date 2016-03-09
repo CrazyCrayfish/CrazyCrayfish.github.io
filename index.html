@@ -101,28 +101,55 @@
       font-size: 0.8em;
       margin: 20px;
     }
-    .navigation{
-      list-style:none;
-      background-color:green;
+.nav li {
+      line-height: 40px;
+      padding:20px;
+      list-style: none;
+      display: inline-block;
+      background-color: white;
     }
-    .navigation li {
-      float:left;
+
+    /* Select all child links in a nav element */
+    .nav a {
+      text-decoration: none;
     }
-    .navigation a { 
-      display: block;
-      padding:8px;
-      background-color: #000000;
-      text-decoration:none;
+
+    .navbar-outside {
+      display:block;
+      background-color: #313732;
+      height:80px;
     }
-    
+
     .navbar {
-      background-color:#000000;
-      width:500px;
+      display:block;
+      background-color: #313732;
+      height:80px;
+      margin:0 auto;
+      min-width:600px;
+      max-width:800px;
+    }
+
+    .navigation li {
+      padding: 30px 15px;
+      list-style: none;
+      text-decoration: none;
+      float:left;
+      height: 20px;
+    }
+
+    .navigation li a {
+      text-decoration: none;
+      color:#FFFFFF;
+    }
+
+    .navigation li:hover {
+      background-color: #F26101;
     }
     
-    .navigation li {
-    list-style-type: none;
-}
+    .active {
+        background-color: #4CAF50;
+        color: white;
+    }
 
   </style>
 </head>
